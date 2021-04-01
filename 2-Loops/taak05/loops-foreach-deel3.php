@@ -16,7 +16,7 @@ $student  = array(
     "Leeftijd"    => 17,
     "Woonplaats"  => "Amstelveen"
   );
-  echo "<table border=6 height=40% width=50%>";
+  echo "<table border=6 height=250px width=50% >";
   foreach($student as $key => $value){
     echo"<tr>
             <td><b> $key  </b></td>
