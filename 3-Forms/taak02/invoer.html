@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            height: 300px;
+            width: 400px;
+            border: 2px solid black;
+        }
+        .error {color: #FF0000;}
+
+
+    </style>
+
+    <form action="mijngegevens.php" method="POST" >
+        <table>
+            <tr>
+                <td>Voornaam</td><td><input type="text" name="voornaam"></td>
+                <td>Geslacht<br><input id="man" type="radio" name="gender" value="man"><label for="man" >man</label>
+                <input id="vrouw" type="radio" name="gender" value="vrouw"><label for="vrouw" >vrouw</label>
+                <span class="error">*</span></td>
+            </tr>
+            <tr>
+                <td>Achternaam</td><td><input type="text" name="achternaam"></td>
+                <td>levelings kleur<br><select name="Color">
+                    <option value="yellow">yellow</option>
+                    <option value="green">green</option>
+                    <option value="red">red</option>
+                    <option value="lightblue">lightblue</option>
+                    <option value="white" selected>white</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td>Klas</td><td><input type="text" name="klas"></td>
+            </tr>
+            <tr>
+                <td>Leeftijd</td><td><input type="text" name="leeftijd"></td>
+            </tr>
+            <tr>
+                <td>Adres</td><td><input type="text" name="adres"></td>
+            </tr>
+            <tr>
+                <td>Woonplaats</td><td><input type="text" name="woonplaats"></td>
+            </tr>
+            <tr><td>
+            <input type="submit" id="verzend" value="submit">
+            </td></tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
