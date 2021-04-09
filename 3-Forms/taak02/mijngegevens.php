@@ -27,7 +27,7 @@
         box-shadow: 5px 10px #888888;
        }
     </style>
-    <div class="bg">
+<div class="bg">
 <?php
 echo strtoupper($_POST['voornaam'] ). "&nbsp;";///&nbsp; non space braeak maakt een spatie tussen twee var
 echo strtoupper($_POST['achternaam'] ."<br>");

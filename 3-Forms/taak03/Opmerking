@@ -1,1 +1,6 @@
 Kun je nog iets zeg waarom er twee manieren zijn: Get en Post? Wat is het voordeel van Get en wat van Post? In welke situaties gebruik je Get en wanneer Post?
+GET: stuurt je variabele vanuit een formulier door via de url
+POST: stuurt je variabele vanuit een formulier onzichtbaar naar een ander script
+
+url van mijn pagina met favoriete nummer:
+http://localhost/php-advanced/3-Forms/taak03/mijnmuziek.php?Artiest=Kenny+B&Titel=Parijs&Jaar=2015&Muzieksoort=Pop
